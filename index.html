@@ -1,9 +1,118 @@
 <!DOCTYPE html>
-<html>
+<html lang="tr">
 <head>
-    <title>App Ads</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URB Software Header Image</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .banner {
+            width: 4096px;
+            height: 2304px;
+            background: linear-gradient(135deg, #1E3D59, #17C3B2);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        .logo-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 100px;
+        }
+
+        .company-logo {
+            width: 600px;
+            height: 600px;
+            border-radius: 50%;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            border: 10px solid white;
+            margin-bottom: 60px;
+        }
+
+        .company-logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .company-name {
+            font-size: 180px;
+            color: white;
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            margin-bottom: 40px;
+        }
+
+        .slogan {
+            font-size: 80px;
+            color: white;
+            opacity: 0.9;
+            text-align: center;
+            line-height: 1.4;
+        }
+
+        .tech-icons {
+            position: absolute;
+            bottom: 100px;
+            display: flex;
+            gap: 60px;
+        }
+
+        .tech-icon {
+            width: 120px;
+            height: 120px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            backdrop-filter: blur(10px);
+            color: white;
+            font-size: 24px;
+        }
+
+        .android-badge {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px 40px;
+            border-radius: 30px;
+            color: white;
+            font-size: 36px;
+            margin-top: 60px;
+            backdrop-filter: blur(10px);
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>App Ads Configuration</h1>
+    <div class="banner">
+        <div class="logo-container">
+            <div class="company-logo">
+                <img src="C:\Users\Administrator.DESKTOP-5P5OUUD\Desktop\Zikirmatik Uygulama Dosyaları\urbsoftware.jpeg" alt="URB Software Logo">
+            </div>
+            <div class="company-name">URB SOFTWARE</div>
+            <div class="slogan">
+                Innovative Mobile Solutions<br>
+                For Better Life
+            </div>
+            <div class="android-badge">
+                Android Developer
+            </div>
+        </div>
+    </div>
 </body>
 </html>
